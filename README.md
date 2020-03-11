@@ -2,7 +2,7 @@
 ​
 **<h2>Software Engineering Immersive – Project 02</h2>**
 ​
-This was my second project of the Software Engineering Immersive course – week 6
+This was my second project of the Software Engineering Immersive course – week 6.
 ​
 **<h2>Built with</h2>**
 <ol>
@@ -14,18 +14,17 @@ This was my second project of the Software Engineering Immersive course – week
 </ol>
 ​
 **<h2>Deployment</h2>**
-This website is deployed on Heroku at https://crimecheck.herokuapp.com/
+This website is deployed on Heroku at https://ga-sei-project.herokuapp.com/.
 ​
 **<h2>Getting Started</h2>**
 Use the clone button to download the website source code. From the root directory type 'npm run server' in the terminal. The project will run on localhost:8000.
 ​
 **<h2>Website Architecture</h2>**
-The app is composed of a Homepage that contains a map provided by Mapbox, crime data API is provided by the Metropolitan Police and a search option that filters through the crime categories. 
+The app is composed of a Homepage that contains a map provided by Mapbox, a crime data API is provided by the Metropolitan Police and a search option that filters through the crime categories. 
  
 <img src="https://i.imgur.com/bSWocIj.png"> 
 ​
 **<h2>1. Home/Index Page</h2>**
-​
 ​
 <p>a. A section with a select/dropdown menu that lists the specific categories available on the API – the user can select a category and type in the postcode , click the “Filter Crime” button and will be shown the number of found crimes and their placement of the map with red dots as the markers.</p>
 <p>b. The second section consists of the map provided by the MapBox that has features as “Marker”, “Popup” and “Geocoder” attached to it. </p>
@@ -46,7 +45,6 @@ Due to this and our machines not being able to handle too much data(at least not
 By carefully reading the documentation MapBox provides on how to set up the rendering of the map, we have managed to get it up and running in no time. As a security measure we have placed our MapBox token in a **.env file.**  What has proved to be a more tedious process was turning the coordinates of a certain crime(provided by the API as a string) into actual markers on the map. 
 ​
 <p>The process of rendering the data on the map was possible by utilising a classical React component using a map function that maps through different categories of crimes provided by the API. The Pop Ups have been placed using the same coordinates. </p>
-​
 ​
 <p>Styling has been done by using Bulma.</p>
 <img src="https://i.imgur.com/jWYCzCI.png" width= 500px height= 600px>
