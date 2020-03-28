@@ -31,7 +31,9 @@ Use the clone button to download the website source code. From the root director
 
 The app consists of a search facility that filters through crime categories (i.e. anti-social behaviour, drugs) available on the API and the results are displayed on a map. 
 ​
+
 <img src="https://i.imgur.com/bSWocIj.png">
+
 
 ### Homepage/Index
 
@@ -47,7 +49,9 @@ Due to this and our machines not being able to handle too much data (at least no
 ​
 Below is an excerpt of code from the Home Page which was built as a classical React component.
 ​
+
 <img src="https://i.imgur.com/MnVV5lT.png" width= 500px height= 600px>
+
 
 ### Mapbox
 
@@ -55,7 +59,9 @@ After carefully reading the documentation, Mapbox was incredibly easy to impleme
 ​
 The process of rendering the data on the map was made possible by utilising a classical React component using a map function that maps through different categories of crimes provided by the API. The Pop Ups have been placed using the same coordinates.
 ​
+
 <img src="https://i.imgur.com/jWYCzCI.png" width= 500px height= 600px>
+
 
 ## Wins & Key Learnings
 
@@ -67,6 +73,8 @@ My key learning was to read the API and Mapbox's documentation carefully in the 
 
 One of the main challenges was placing the provided coordinates on the map. We had to create a second axios GET request and map through the crimes and associated coordinates. This was new process for us and it took a while to work through.
 ​
+
 <img src="https://i.imgur.com/RA0704Y.png" height= 200px> 
+
 ​
 Refactoring the code would help speed up the process of loading the page which - at the moment - is rather slow. The possibility to search through the crimes based on the date and more information on the crime would definitely be a great step forward.
